@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2011-09-05 21:02-0400\n"
+"PO-Revision-Date: 2011-09-05 21:02-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
+#. [editor_group]: id=sc
+#: _main.cfg:50 _main.cfg:99
+msgid "A Simple Campaign"
+msgstr ""
+
+#. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
+#: _main.cfg:51
+msgid "ASC"
+msgstr ""
+
+#. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
+#: _main.cfg:55
+msgid ""
+"&units/undead-necromancers/adept-magic-3.png=Easy;*&units/undead-"
+"necromancers/dark-sorcerer-attack-staff-2.png=Medium;&units/undead-"
+"necromancers/ancient-lich-magic-3.png=Difficult"
+msgstr ""
+
+#. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
+#: _main.cfg:60
+msgid ""
+"This is a stub of a campaign, intended to make life easier in creating a "
+"campaign. Contains about the bare minimum that's needed for a campaign and "
+"some helpful comments."
+msgstr ""
+
+#. [part]
+#: scenarios/01_Template.cfg:12
+msgid "this is where the story goes"
+msgstr ""
+
+#. [scenario]: id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg)
+#: scenarios/01_Template.cfg:27
+msgid "Template"
+msgstr ""
+
+#. [side]: type=Dwarvish Fighter, id=His Awesomeness
+#: scenarios/01_Template.cfg:63
+msgid "foo"
+msgstr ""
+
+#. [side]: type=Dwarvish Fighter, id=His Awesomeness
+#: scenarios/01_Template.cfg:69
+msgid "His Awesomeness"
+msgstr ""
+
+#. [side]: type=Elvish Fighter, id=Lord Awesomeness
+#: scenarios/01_Template.cfg:88
+msgid "bar"
+msgstr ""
+
+#. [side]: type=Elvish Fighter, id=Lord Awesomeness
+#: scenarios/01_Template.cfg:93
+msgid "Lord Awesomeness"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/01_Template.cfg:116
+msgid ""
+"Welcome, future UMC developer. This is a stub of a campaign, intended to "
+"make life easier in creating a campaign, since the by far most difficult "
+"part is the very start. This campaign contains about the bare minimum that's "
+"needed for a campaign and some helpful comments. Note that by creating a "
+"campaign which targets wesnoth's development version you may run into engine "
+"bugs which you mistakenly think of being caused by your wml code."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/01_Template.cfg:122
+msgid ""
+"There is a site in the wesnoth wiki related to this add-on, which also tells "
+"you where to look for this add-ons's files so you can actually read this "
+"message in the code instead of reading it on the screen: http://wiki.wesnoth."
+"org/BuildingCampaignsTutorial/FirstCampaign"
+msgstr ""
+
+#. [chat]
+#: scenarios/01_Template.cfg:125
+msgid ""
+"site related to this add-on: http://wiki.wesnoth.org/"
+"BuildingCampaignsTutorial/FirstCampaign"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/01_Template.cfg:131
+msgid ""
+"The files of this add-on, describing what happens in it, are in your "
+"userdata directory, explanation where this directory is here: http://wiki."
+"wesnoth.org/EditingWesnoth"
+msgstr ""
+
+#. [chat]
+#: scenarios/01_Template.cfg:134
+msgid ""
+"Where are the files of this add-on ? read here: http://wiki.wesnoth.org/"
+"EditingWesnoth"
+msgstr ""
+
+#. [objectives]
+#: scenarios/01_Template.cfg:140
+msgid "final objectives:"
+msgstr ""
+
+#. [objective]: condition=win
+#: scenarios/01_Template.cfg:142
+msgid "Defeat the enemy leader"
+msgstr ""
+
+#. [objective]: condition=lose
+#: scenarios/01_Template.cfg:146
+msgid "Death of His Awesomenes"
+msgstr ""
+
+#. [message]: id=created_unit
+#: scenarios/01_Template.cfg:168
+msgid "Hey, I'm a custom unit of this campaign and I've just appeared."
+msgstr ""
+
+#. [message]: speaker=unit
+#: scenarios/01_Template.cfg:179
+msgid ""
+"I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/01_Template.cfg:185
+msgid "Let's play some custom sound..."
+msgstr ""
+
+#. [terrain_type]: id=asc-custom-terrain
+#: terrain/terrain-definitions.cfg:8
+msgid "ASC's custom terrain"
+msgstr ""
+
+#. [unit_type]: id=Custom Unit, race=human
+#: units/Custom_Unit.cfg:5
+msgid "some custom unit"
+msgstr ""
+
+#. [unit_type]: id=Custom Unit, race=human
+#: units/Custom_Unit.cfg:18
+msgid "This is a custom unit in ASC demonstrating how to create such units."
+msgstr ""
+
+#. [attack]: type=impact
+#: units/Custom_Unit.cfg:28
+msgid "Sword"
+msgstr ""
