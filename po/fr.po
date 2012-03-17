@@ -1,33 +1,32 @@
+# Guillaume Pascal <guillaume.pascal43@laposte.net>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2012-02-26 17:17+0100\n"
-"PO-Revision-Date: 2012-01-18 08:32+0100\n"
-"Last-Translator: Guigou Guillaume <guillaume.guigou@orange.fr>\n"
+"PO-Revision-Date: 2012-02-24 18:33+0200\n"
+"Last-Translator: Guillaume Pascal <guillaume.pascal43@laposte.net>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 0.7.0\n"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #. [editor_group]: id=sc
 #: A_Simple_Campaign/_main.cfg:48 A_Simple_Campaign/_main.cfg:98
-#, fuzzy
 msgid "A Simple Campaign"
 msgstr "Une Campagne Simple"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:49
-#, fuzzy
 msgid "ASC"
 msgstr "UCS"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:53
-#, fuzzy
 msgid ""
 "&units/undead-necromancers/adept-magic-3.png=Easy;*&units/undead-"
 "necromancers/dark-sorcerer-attack-staff-2.png=Medium;&units/undead-"
@@ -39,7 +38,6 @@ msgstr ""
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:58
-#, fuzzy
 msgid ""
 "This is a stub of a campaign, intended to make life easier in creating a "
 "campaign. Contains about the bare minimum that's needed for a campaign and "
@@ -51,43 +49,36 @@ msgstr ""
 
 #. [part]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:12
-#, fuzzy
 msgid "this is where the story goes"
 msgstr "C’est là que l'histoire commence"
 
 #. [scenario]: id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg)
 #: A_Simple_Campaign/scenarios/01_Template.cfg:26
-#, fuzzy
 msgid "Template"
 msgstr "Modèle"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:59
-#, fuzzy
 msgid "foo"
 msgstr "foo"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:65
-#, fuzzy
 msgid "His Awesomeness"
 msgstr "Le Stupéfiant"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:84
-#, fuzzy
 msgid "bar"
 msgstr "bar"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:89
-#, fuzzy
 msgid "Lord Awesomeness"
 msgstr "Seigneur Stupéfiant"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:110
-#, fuzzy
 msgid ""
 "Welcome, future UMC developer. This is a stub of a campaign, intended to "
 "make life easier in creating a campaign, since the by far most difficult "
@@ -96,13 +87,13 @@ msgid ""
 "campaign which targets wesnoth's development version you may run into engine "
 "bugs which you mistakenly think of being caused by your wml code."
 msgstr ""
-"Bonjour, futur développeur d'UMC. Ceci est une ébauche dz campagne, destinée "
+"Bonjour, futur développeur d'UMC. Ceci est une ébauche de campagne, destinée "
 "à rendre la création d’une campagne plus facile, car la partie de loin la "
-"plus difficile est le début. Contient le strict minimum nécessaire à une "
-"campagne et quelques commentaires utiles. Notez que en créant une campagne "
-"qui s'adresse à la version de développement de Wesnoth, vous pouvez "
-"rencontrer des bugs du moteur que vous penserez à tort être causés par votre "
-"code WML."
+"plus difficile est le début. Cette campagne contient le strict minimum "
+"nécessaire à une campagne et quelques commentaires utiles. Notez que en "
+"créant une campagne destinée à la version de développement de Wesnoth, vous "
+"pouvez rencontrer des bugs du moteur que vous penserez à tort être causés "
+"par votre code WML."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:116
@@ -113,14 +104,13 @@ msgid ""
 "message in the code instead of reading it on the screen: http://wiki.wesnoth."
 "org/BuildingCampaignsTutorial/FirstCampaign"
 msgstr ""
-"Il y a une page dans le wiki de Wesnoth liés à cette extension, elle vous "
+"Il y a une page liée à cette extension dans le wiki de Wesnoth, elle vous "
 "indique également où chercher les fichiers de cette extension afin que vous "
 "puissiez réellement lire ce message dans le code au lieu de le lire à "
 "l'écran : http://wiki.wesnoth.org/BuildingCampaignsTutorial/FirstCampaign"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:119
-#, fuzzy
 msgid ""
 "site related to this add-on: http://wiki.wesnoth.org/"
 "BuildingCampaignsTutorial/FirstCampaign"
@@ -130,19 +120,17 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:125
-#, fuzzy
 msgid ""
 "The files of this add-on, describing what happens in it, are in your "
 "userdata directory, explanation where this directory is here: http://wiki."
 "wesnoth.org/EditingWesnoth"
 msgstr ""
 "Les dossiers de cette extension contenant la description de ce qui s'y "
-"passe, se trouve dans votre répertoire userdata, l'explication où trouver ce "
-"répertoire est ici : http://wiki.wesnoth.org/EditingWesnoth"
+"passe, se trouvent dans votre répertoire userdata, l'explication pour savoir "
+"où trouver ce répertoire est ici : http://wiki.wesnoth.org/EditingWesnoth"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:128
-#, fuzzy
 msgid ""
 "Where are the files of this add-on ? read here: http://wiki.wesnoth.org/"
 "EditingWesnoth"
@@ -152,44 +140,38 @@ msgstr ""
 
 #. [objectives]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:134
-#, fuzzy
 msgid "final objectives:"
-msgstr "objectif final :"
+msgstr "objectifs finaux :"
 
 #. [objective]: condition=win
 #: A_Simple_Campaign/scenarios/01_Template.cfg:136
-#, fuzzy
 msgid "Defeat the enemy leader"
 msgstr "Vaincre le chef ennemi"
 
 #. [objective]: condition=lose
 #: A_Simple_Campaign/scenarios/01_Template.cfg:140
-#, fuzzy
 msgid "Death of His Awesomenes"
-msgstr "Mort du Stupéfiant"
+msgstr "Mort de Le Stupéfiant"
 
 #. [message]: id=created_unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:162
-#, fuzzy
 msgid "Hey, I'm a custom unit of this campaign and I've just appeared."
 msgstr ""
 "Hé, je suis une unité personnalisée de cette campagne et je viens "
-"d'apparaitre."
+"d’apparaître."
 
 #. [message]: speaker=unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:173
-#, fuzzy
 msgid ""
 "I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
 msgstr ""
-"Je suis une unité caché sur la face 1 et on m’a seulement déplacé vers "
-"l'hexagone avec les coordonnées $ x1, y1 $."
+"Je suis une unité du camp 1 et je viens de me déplacer vers l'hexagone avec "
+"les coordonnées $x1;$y1."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:179
-#, fuzzy
 msgid "Let's play some custom sound..."
-msgstr "Jouons des sons personnalisés ..."
+msgstr "Jouons des sons personnalisés..."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:188
@@ -213,27 +195,23 @@ msgstr ""
 
 #. [terrain_type]: id=asc-custom-terrain
 #: A_Simple_Campaign/terrain/terrain-definitions.cfg:8
-#, fuzzy
 msgid "ASC's custom terrain"
-msgstr "Un terrain personnalisée de UCS"
+msgstr "Un terrain personnalisé de UCS"
 
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:5
-#, fuzzy
 msgid "some custom unit"
-msgstr "Quelques  unités personnalisées"
+msgstr "Une unité personnalisée"
 
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:18
-#, fuzzy
 msgid "This is a custom unit in ASC demonstrating how to create such units."
 msgstr ""
-"Ceci est une unité personnalisée de démonstration d’UCS, décrivant comment "
-"créer de telles unités."
+"Ceci est une unité personnalisée d’UCS, décrivant comment créer de telles "
+"unités."
 
 #. [attack]: type=impact
 #: A_Simple_Campaign/units/Custom_Unit.cfg:28
-#, fuzzy
 msgid "Sword"
 msgstr "Epée"
 
