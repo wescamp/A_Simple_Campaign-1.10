@@ -1,12 +1,15 @@
+#
 # Guillaume Pascal <guillaume.pascal43@laposte.net>, 2012.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2012-02-26 17:17+0100\n"
-"PO-Revision-Date: 2012-02-24 18:33+0200\n"
+"PO-Revision-Date: 2012-06-24 13:59+0200\n"
 "Last-Translator: Guillaume Pascal <guillaume.pascal43@laposte.net>\n"
-"Language-Team: none\n"
+"Language-Team: français <Équipe de traduction française <wesnoth@ml.free."
+"fr>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,7 +100,6 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:116
-#, fuzzy
 msgid ""
 "There is a site in the wesnoth wiki related to this add-on, which also tells "
 "you where to look for this add-on's files so you can actually read this "
@@ -179,12 +181,16 @@ msgid ""
 "This is the macro from macros/. Soon follows another macro. The code from "
 "this event is a bit more adanced wml."
 msgstr ""
+"Il s'agit d'une macro du répertoire macros/. Bientôt suivie d'une autre "
+"macro. Le code de cet événement est un code wml un peu plus avancé."
 
+# On affiche la variable twotimesthree. Résultat visible dans la campagne.
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:195
 msgid "two times three is $twotimesthree|."
-msgstr ""
+msgstr "Deux fois trois a pour résultat $twotimesthree|."
 
+# On essaye d'afficher le résultat de twotimestrree et il n'y a plus rien. Résultat visible dans la campagne.
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:197
 msgid ""
@@ -192,6 +198,9 @@ msgid ""
 "$twotimesthree| You should always clear your variables once that you no "
 "longer need them."
 msgstr ""
+"La variable twotimesthree est effacée maintenant, vous ne pouvez plus "
+"l'utiliser : $twotimesthree| Vous devez toujours nettoyer vos variables une "
+"fois que vous n'en avez plus besoin."
 
 #. [terrain_type]: id=asc-custom-terrain
 #: A_Simple_Campaign/terrain/terrain-definitions.cfg:8
@@ -213,7 +222,7 @@ msgstr ""
 #. [attack]: type=impact
 #: A_Simple_Campaign/units/Custom_Unit.cfg:28
 msgid "Sword"
-msgstr "Epée"
+msgstr "Épée"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:8
@@ -222,13 +231,20 @@ msgid ""
 "This macro is a bit more advanced, you don't need to care about it at the "
 "beginning."
 msgstr ""
+"Il s'agit d'une macro du répertoire utils/. Nous allons effectuer un petit "
+"calcul et retourner le résultat. Cette macro est un peu plus avancée, il "
+"n'est pas nécessaire de s'en soucier au début."
 
+# C'est pour démontrer que la variable two à été impacté par le calcul. Résultat visible dans la campagne
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:17
 msgid "Variable with name two has been set to $two|."
-msgstr ""
+msgstr "La variable nommée two est initialisée à $two|."
 
+# Le résultat de la macro est effectif dans le message de la campagne.
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:26
 msgid "Variable with name two has been multiplied by 3 to value $two|."
 msgstr ""
+"La variable nommée two a été multipliée par 3 prenant ainsi comme valeur "
+"$two|."
