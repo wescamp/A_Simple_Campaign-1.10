@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: A_Simple_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-04 20:57-0400\n"
-"PO-Revision-Date: 2012-02-22 00:00+0100\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-11-07 11:01+0200\n"
+"Last-Translator: Igor Paliychuk <mansonigor@gmail.com>\n"
 "Language-Team: none\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -12,17 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #. [editor_group]: id=sc
 #: A_Simple_Campaign/_main.cfg:48 A_Simple_Campaign/_main.cfg:98
 msgid "A Simple Campaign"
-msgstr ""
+msgstr "Проста Кампанія"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:49
 msgid "ASC"
-msgstr ""
+msgstr "ПК"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:53
@@ -31,6 +32,9 @@ msgid ""
 "necromancers/dark-sorcerer-attack-staff-2.png=Medium;&units/undead-"
 "necromancers/ancient-lich-magic-3.png=Difficult"
 msgstr ""
+"&units/undead-necromancers/adept-magic-3.png=Простий;*&units/undead-"
+"necromancers/dark-sorcerer-attack-staff-2.png=Середній;&units/undead-"
+"necromancers/ancient-lich-magic-3.png=Складний"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:58
@@ -39,36 +43,38 @@ msgid ""
 "campaign. Contains about the bare minimum that's needed for a campaign and "
 "some helpful comments."
 msgstr ""
+"Це незавершена кампанія, покликана упростити створення кампаній. Містить "
+"близько мінімуму, що потрібно для кампанії і деякі корисні коментарі."
 
 #. [part]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:12
 msgid "this is where the story goes"
-msgstr ""
+msgstr "ось тут починається історія"
 
 #. [scenario]: id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg)
 #: A_Simple_Campaign/scenarios/01_Template.cfg:26
 msgid "Template"
-msgstr ""
+msgstr "Шаблон"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:59
 msgid "foo"
-msgstr ""
+msgstr "foo"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:65
 msgid "His Awesomeness"
-msgstr ""
+msgstr "Його Жахливість"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:84
 msgid "bar"
-msgstr ""
+msgstr "bar"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:89
 msgid "Lord Awesomeness"
-msgstr ""
+msgstr "Лорд Жахливість"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:110
@@ -80,6 +86,12 @@ msgid ""
 "campaign which targets wesnoth's development version you may run into engine "
 "bugs which you mistakenly think of being caused by your wml code."
 msgstr ""
+"Ласкаво просимо, майбутній розробник UMC. Це незавершена кампанія, покликана "
+"упростити створення кампаній, оскільки на сьогоднішній день найважчим є "
+"почати. Ця кампанія містить близько мінімуму, що потрібно для кампанії і "
+"деякі корисні коментарі. Зауважте, що створюючи кампанію для розробницькох "
+"версії wesnoth, ви можете зіткнутися з помилкою двигуна, яку ви помилково "
+"сприймете за проблему у вашому wml коді."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:116
@@ -89,6 +101,10 @@ msgid ""
 "message in the code instead of reading it on the screen: http://wiki.wesnoth."
 "org/BuildingCampaignsTutorial/FirstCampaign"
 msgstr ""
+"В Вікі wesnoth існує сайт, пов'язаний з цим аддоном, який також повідомить "
+"вам, де шукати файли аддону, так що ви зможете прочитати це повідомлення в "
+"коді, а не читати його на екрані: http://wiki.wesnoth.org/"
+"BuildingCampaignsTutorial/FirstCampaign"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:119
@@ -96,6 +112,8 @@ msgid ""
 "site related to this add-on: http://wiki.wesnoth.org/"
 "BuildingCampaignsTutorial/FirstCampaign"
 msgstr ""
+"сайт, пов'язаний з цим аддоном: http://wiki.wesnoth.org/"
+"BuildingCampaignsTutorial/FirstCampaign"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:125
@@ -104,6 +122,9 @@ msgid ""
 "userdata directory, explanation where this directory is here: http://wiki."
 "wesnoth.org/EditingWesnoth"
 msgstr ""
+"Файли цього аддону, що описують те, що відбувається в ньому, знаходяться в "
+"вашій теці користувача, а пояснення, де ця тека, читайте тут: http://wiki."
+"wesnoth.org/EditingWesnoth"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:128
@@ -111,37 +132,40 @@ msgid ""
 "Where are the files of this add-on ? read here: http://wiki.wesnoth.org/"
 "EditingWesnoth"
 msgstr ""
+"Де знаходяться файли цього аддону ? читайте тут: http://wiki.wesnoth.org/"
+"EditingWesnoth"
 
 #. [objectives]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:134
 msgid "final objectives:"
-msgstr ""
+msgstr "фінальні цілі:"
 
 #. [objective]: condition=win
 #: A_Simple_Campaign/scenarios/01_Template.cfg:136
 msgid "Defeat the enemy leader"
-msgstr ""
+msgstr "Подолайте ворожого лідера"
 
 #. [objective]: condition=lose
 #: A_Simple_Campaign/scenarios/01_Template.cfg:140
 msgid "Death of His Awesomenes"
-msgstr ""
+msgstr "Смерть Його Жахливості"
 
 #. [message]: id=created_unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:162
 msgid "Hey, I'm a custom unit of this campaign and I've just appeared."
-msgstr ""
+msgstr "Ей, я користувацький боєць цієї кампанії, і я щойно з'явився."
 
 #. [message]: speaker=unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:173
 msgid ""
 "I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
 msgstr ""
+"Я боєць на стороні 1 і я щойно перемістився на поле з координатами $x1,$y1."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:179
 msgid "Let's play some custom sound..."
-msgstr ""
+msgstr "Давайте відтворимо якийсь звук..."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:188
@@ -149,11 +173,13 @@ msgid ""
 "This is the macro from macros/. Soon follows another macro. The code from "
 "this event is a bit more adanced wml."
 msgstr ""
+"Це макрос з macros/. Незабаром буде інший макрос. Код з цієї події це трохи "
+"більш передовий wml."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:195
 msgid "two times three is $twotimesthree|."
-msgstr ""
+msgstr "двічі три буде $twotimesthree|."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:197
@@ -162,26 +188,30 @@ msgid ""
 "$twotimesthree| You should always clear your variables once that you no "
 "longer need them."
 msgstr ""
+"Оскільки змінна twotimesthree зараз очищена, ви більше не можете її "
+"використати: $twotimesthree| Ви завжди повинні очищати змінні тоді, коли вам "
+"вони більше не потрібні."
 
 #. [terrain_type]: id=asc-custom-terrain
 #: A_Simple_Campaign/terrain/terrain-definitions.cfg:8
 msgid "ASC's custom terrain"
-msgstr ""
+msgstr "якась місцевість ПК"
 
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:5
 msgid "some custom unit"
-msgstr ""
+msgstr "якийсь боєць"
 
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:18
 msgid "This is a custom unit in ASC demonstrating how to create such units."
 msgstr ""
+"Це користувацький боєць в ПК, що демонструє як створювати таких бійців."
 
 #. [attack]: type=impact
 #: A_Simple_Campaign/units/Custom_Unit.cfg:28
 msgid "Sword"
-msgstr ""
+msgstr "Меч"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:8
@@ -190,13 +220,16 @@ msgid ""
 "This macro is a bit more advanced, you don't need to care about it at the "
 "beginning."
 msgstr ""
+"Це макрос з utils/. Давайте трохи порахуємо і повернемо результат. Цей "
+"макрос є більш складним, вам не потрібно піклуватися про це на самому "
+"початку."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:17
 msgid "Variable with name two has been set to $two|."
-msgstr ""
+msgstr "Змінна з іменем two була встановлена на $two|."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:26
 msgid "Variable with name two has been multiplied by 3 to value $two|."
-msgstr ""
+msgstr "Змінна з іменем two була помножена на 3 і встановлена на $two|."
