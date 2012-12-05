@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: A_Simple_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 20:57-0400\n"
+"POT-Creation-Date: 2012-12-05 12:16+0100\n"
 "PO-Revision-Date: 2012-06-24 13:59+0200\n"
 "Last-Translator: Guillaume Pascal <guillaume.pascal43@laposte.net>\n"
 "Language-Team: français <Équipe de traduction française <wesnoth@ml.free."
@@ -82,21 +82,16 @@ msgstr "Seigneur Stupéfiant"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:110
+#, fuzzy
 msgid ""
 "Welcome, future UMC developer. This is a stub of a campaign, intended to "
 "make life easier in creating a campaign, since the by far most difficult "
 "part is the very start. This campaign contains about the bare minimum that's "
-"needed for a campaign and some helpful comments. Note that by creating a "
-"campaign which targets wesnoth's development version you may run into engine "
-"bugs which you mistakenly think of being caused by your wml code."
+"needed for a campaign and some helpful comments."
 msgstr ""
-"Bonjour, futur développeur d'UMC. Ceci est une ébauche de campagne, destinée "
-"à rendre la création d’une campagne plus facile, car la partie de loin la "
-"plus difficile est le début. Cette campagne contient le strict minimum "
-"nécessaire à une campagne et quelques commentaires utiles. Notez que en "
-"créant une campagne destinée à la version de développement de Wesnoth, vous "
-"pouvez rencontrer des bugs du moteur que vous penserez à tort être causés "
-"par votre code WML."
+"Ceci est une ébauche de campagne, destinée à rendre la création d’une "
+"campagne plus facile. Contient le strict minimum nécessaire à une campagne "
+"et quelques commentaires utiles."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:116
@@ -121,7 +116,12 @@ msgstr ""
 "BuildingCampaignsTutorial/FirstCampaign"
 
 #. [message]: speaker=narrator
-#: A_Simple_Campaign/scenarios/01_Template.cfg:125
+#: A_Simple_Campaign/scenarios/01_Template.cfg:124
+msgid "However, I don't update that site so probably nobody does..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: A_Simple_Campaign/scenarios/01_Template.cfg:130
 msgid ""
 "The files of this add-on, describing what happens in it, are in your "
 "userdata directory, explanation where this directory is here: http://wiki."
@@ -132,7 +132,7 @@ msgstr ""
 "où trouver ce répertoire est ici : http://wiki.wesnoth.org/EditingWesnoth"
 
 #. [chat]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:128
+#: A_Simple_Campaign/scenarios/01_Template.cfg:133
 msgid ""
 "Where are the files of this add-on ? read here: http://wiki.wesnoth.org/"
 "EditingWesnoth"
@@ -141,29 +141,29 @@ msgstr ""
 "EditingWesnoth"
 
 #. [objectives]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:134
+#: A_Simple_Campaign/scenarios/01_Template.cfg:139
 msgid "final objectives:"
 msgstr "objectifs finaux :"
 
 #. [objective]: condition=win
-#: A_Simple_Campaign/scenarios/01_Template.cfg:136
+#: A_Simple_Campaign/scenarios/01_Template.cfg:141
 msgid "Defeat the enemy leader"
 msgstr "Vaincre le chef ennemi"
 
 #. [objective]: condition=lose
-#: A_Simple_Campaign/scenarios/01_Template.cfg:140
+#: A_Simple_Campaign/scenarios/01_Template.cfg:145
 msgid "Death of His Awesomenes"
 msgstr "Mort de Le Stupéfiant"
 
 #. [message]: id=created_unit
-#: A_Simple_Campaign/scenarios/01_Template.cfg:162
+#: A_Simple_Campaign/scenarios/01_Template.cfg:167
 msgid "Hey, I'm a custom unit of this campaign and I've just appeared."
 msgstr ""
 "Hé, je suis une unité personnalisée de cette campagne et je viens "
 "d’apparaître."
 
 #. [message]: speaker=unit
-#: A_Simple_Campaign/scenarios/01_Template.cfg:173
+#: A_Simple_Campaign/scenarios/01_Template.cfg:178
 msgid ""
 "I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
 msgstr ""
@@ -171,28 +171,30 @@ msgstr ""
 "les coordonnées $x1;$y1."
 
 #. [message]: speaker=narrator
-#: A_Simple_Campaign/scenarios/01_Template.cfg:179
+#: A_Simple_Campaign/scenarios/01_Template.cfg:184
 msgid "Let's play some custom sound..."
 msgstr "Jouons des sons personnalisés..."
 
 #. [event]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:188
+#: A_Simple_Campaign/scenarios/01_Template.cfg:193
+#, fuzzy
 msgid ""
 "This is the macro from macros/. Soon follows another macro. The code from "
-"this event is a bit more adanced wml."
+"this event is a bit more adanced wml. You don't need to understand it if "
+"you've just started to code wml."
 msgstr ""
 "Il s'agit d'une macro du répertoire macros/. Bientôt suivie d'une autre "
 "macro. Le code de cet événement est un code wml un peu plus avancé."
 
 # On affiche la variable twotimesthree. Résultat visible dans la campagne.
 #. [event]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:195
+#: A_Simple_Campaign/scenarios/01_Template.cfg:200
 msgid "two times three is $twotimesthree|."
 msgstr "Deux fois trois a pour résultat $twotimesthree|."
 
 # On essaye d'afficher le résultat de twotimestrree et il n'y a plus rien. Résultat visible dans la campagne.
 #. [event]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:197
+#: A_Simple_Campaign/scenarios/01_Template.cfg:202
 msgid ""
 "Since the variable twotimesthree is cleared now, you can no longer query it: "
 "$twotimesthree| You should always clear your variables once that you no "
@@ -248,3 +250,20 @@ msgid "Variable with name two has been multiplied by 3 to value $two|."
 msgstr ""
 "La variable nommée two a été multipliée par 3 prenant ainsi comme valeur "
 "$two|."
+
+#~ msgid ""
+#~ "Welcome, future UMC developer. This is a stub of a campaign, intended to "
+#~ "make life easier in creating a campaign, since the by far most difficult "
+#~ "part is the very start. This campaign contains about the bare minimum "
+#~ "that's needed for a campaign and some helpful comments. Note that by "
+#~ "creating a campaign which targets wesnoth's development version you may "
+#~ "run into engine bugs which you mistakenly think of being caused by your "
+#~ "wml code."
+#~ msgstr ""
+#~ "Bonjour, futur développeur d'UMC. Ceci est une ébauche de campagne, "
+#~ "destinée à rendre la création d’une campagne plus facile, car la partie "
+#~ "de loin la plus difficile est le début. Cette campagne contient le strict "
+#~ "minimum nécessaire à une campagne et quelques commentaires utiles. Notez "
+#~ "que en créant une campagne destinée à la version de développement de "
+#~ "Wesnoth, vous pouvez rencontrer des bugs du moteur que vous penserez à "
+#~ "tort être causés par votre code WML."

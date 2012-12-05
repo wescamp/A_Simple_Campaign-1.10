@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: A_Simple_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 20:57-0400\n"
+"POT-Creation-Date: 2012-12-05 12:16+0100\n"
 "PO-Revision-Date: 2012-11-07 11:01+0200\n"
 "Last-Translator: Igor Paliychuk <mansonigor@gmail.com>\n"
 "Language-Team: none\n"
@@ -78,20 +78,15 @@ msgstr "Лорд Жахливість"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:110
+#, fuzzy
 msgid ""
 "Welcome, future UMC developer. This is a stub of a campaign, intended to "
 "make life easier in creating a campaign, since the by far most difficult "
 "part is the very start. This campaign contains about the bare minimum that's "
-"needed for a campaign and some helpful comments. Note that by creating a "
-"campaign which targets wesnoth's development version you may run into engine "
-"bugs which you mistakenly think of being caused by your wml code."
+"needed for a campaign and some helpful comments."
 msgstr ""
-"Ласкаво просимо, майбутній розробник UMC. Це незавершена кампанія, покликана "
-"упростити створення кампаній, оскільки на сьогоднішній день найважчим є "
-"почати. Ця кампанія містить близько мінімуму, що потрібно для кампанії і "
-"деякі корисні коментарі. Зауважте, що створюючи кампанію для розробницькох "
-"версії wesnoth, ви можете зіткнутися з помилкою двигуна, яку ви помилково "
-"сприймете за проблему у вашому wml коді."
+"Це незавершена кампанія, покликана упростити створення кампаній. Містить "
+"близько мінімуму, що потрібно для кампанії і деякі корисні коментарі."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:116
@@ -116,7 +111,12 @@ msgstr ""
 "BuildingCampaignsTutorial/FirstCampaign"
 
 #. [message]: speaker=narrator
-#: A_Simple_Campaign/scenarios/01_Template.cfg:125
+#: A_Simple_Campaign/scenarios/01_Template.cfg:124
+msgid "However, I don't update that site so probably nobody does..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: A_Simple_Campaign/scenarios/01_Template.cfg:130
 msgid ""
 "The files of this add-on, describing what happens in it, are in your "
 "userdata directory, explanation where this directory is here: http://wiki."
@@ -127,7 +127,7 @@ msgstr ""
 "wesnoth.org/EditingWesnoth"
 
 #. [chat]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:128
+#: A_Simple_Campaign/scenarios/01_Template.cfg:133
 msgid ""
 "Where are the files of this add-on ? read here: http://wiki.wesnoth.org/"
 "EditingWesnoth"
@@ -136,53 +136,55 @@ msgstr ""
 "EditingWesnoth"
 
 #. [objectives]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:134
+#: A_Simple_Campaign/scenarios/01_Template.cfg:139
 msgid "final objectives:"
 msgstr "фінальні цілі:"
 
 #. [objective]: condition=win
-#: A_Simple_Campaign/scenarios/01_Template.cfg:136
+#: A_Simple_Campaign/scenarios/01_Template.cfg:141
 msgid "Defeat the enemy leader"
 msgstr "Подолайте ворожого лідера"
 
 #. [objective]: condition=lose
-#: A_Simple_Campaign/scenarios/01_Template.cfg:140
+#: A_Simple_Campaign/scenarios/01_Template.cfg:145
 msgid "Death of His Awesomenes"
 msgstr "Смерть Його Жахливості"
 
 #. [message]: id=created_unit
-#: A_Simple_Campaign/scenarios/01_Template.cfg:162
+#: A_Simple_Campaign/scenarios/01_Template.cfg:167
 msgid "Hey, I'm a custom unit of this campaign and I've just appeared."
 msgstr "Ей, я користувацький боєць цієї кампанії, і я щойно з'явився."
 
 #. [message]: speaker=unit
-#: A_Simple_Campaign/scenarios/01_Template.cfg:173
+#: A_Simple_Campaign/scenarios/01_Template.cfg:178
 msgid ""
 "I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
 msgstr ""
 "Я боєць на стороні 1 і я щойно перемістився на поле з координатами $x1,$y1."
 
 #. [message]: speaker=narrator
-#: A_Simple_Campaign/scenarios/01_Template.cfg:179
+#: A_Simple_Campaign/scenarios/01_Template.cfg:184
 msgid "Let's play some custom sound..."
 msgstr "Давайте відтворимо якийсь звук..."
 
 #. [event]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:188
+#: A_Simple_Campaign/scenarios/01_Template.cfg:193
+#, fuzzy
 msgid ""
 "This is the macro from macros/. Soon follows another macro. The code from "
-"this event is a bit more adanced wml."
+"this event is a bit more adanced wml. You don't need to understand it if "
+"you've just started to code wml."
 msgstr ""
 "Це макрос з macros/. Незабаром буде інший макрос. Код з цієї події це трохи "
 "більш передовий wml."
 
 #. [event]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:195
+#: A_Simple_Campaign/scenarios/01_Template.cfg:200
 msgid "two times three is $twotimesthree|."
 msgstr "двічі три буде $twotimesthree|."
 
 #. [event]
-#: A_Simple_Campaign/scenarios/01_Template.cfg:197
+#: A_Simple_Campaign/scenarios/01_Template.cfg:202
 msgid ""
 "Since the variable twotimesthree is cleared now, you can no longer query it: "
 "$twotimesthree| You should always clear your variables once that you no "
@@ -233,3 +235,19 @@ msgstr "Змінна з іменем two була встановлена на $t
 #: A_Simple_Campaign/utils/another_macro_file.cfg:26
 msgid "Variable with name two has been multiplied by 3 to value $two|."
 msgstr "Змінна з іменем two була помножена на 3 і встановлена на $two|."
+
+#~ msgid ""
+#~ "Welcome, future UMC developer. This is a stub of a campaign, intended to "
+#~ "make life easier in creating a campaign, since the by far most difficult "
+#~ "part is the very start. This campaign contains about the bare minimum "
+#~ "that's needed for a campaign and some helpful comments. Note that by "
+#~ "creating a campaign which targets wesnoth's development version you may "
+#~ "run into engine bugs which you mistakenly think of being caused by your "
+#~ "wml code."
+#~ msgstr ""
+#~ "Ласкаво просимо, майбутній розробник UMC. Це незавершена кампанія, "
+#~ "покликана упростити створення кампаній, оскільки на сьогоднішній день "
+#~ "найважчим є почати. Ця кампанія містить близько мінімуму, що потрібно для "
+#~ "кампанії і деякі корисні коментарі. Зауважте, що створюючи кампанію для "
+#~ "розробницькох версії wesnoth, ви можете зіткнутися з помилкою двигуна, "
+#~ "яку ви помилково сприймете за проблему у вашому wml коді."
